@@ -1,0 +1,11 @@
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Algorithms\bin\Debug\net8.0\Algorithms.deps.json
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Algorithms\bin\Debug\net8.0\Algorithms.dll
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Algorithms\bin\Debug\net8.0\Algorithms.pdb
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Algorithms\obj\Debug\net8.0\Algorithms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Algorithms\obj\Debug\net8.0\Algorithms.AssemblyInfoInputs.cache
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Algorithms\obj\Debug\net8.0\Algorithms.AssemblyInfo.cs
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Algorithms\obj\Debug\net8.0\Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Algorithms\obj\Debug\net8.0\Algorithms.dll
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Algorithms\obj\Debug\net8.0\refint\Algorithms.dll
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Algorithms\obj\Debug\net8.0\Algorithms.pdb
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Algorithms\obj\Debug\net8.0\ref\Algorithms.dll
