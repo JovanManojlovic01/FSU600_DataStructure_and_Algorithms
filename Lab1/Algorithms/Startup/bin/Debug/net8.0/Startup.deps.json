@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Startup/1.0.0": {
+        "dependencies": {
+          "Algorithms": "1.0.0",
+          "Times": "1.0.0"
+        },
+        "runtime": {
+          "Startup.dll": {}
+        }
+      },
+      "Algorithms/1.0.0": {
+        "runtime": {
+          "Algorithms.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Times/1.0.0": {
+        "dependencies": {
+          "Algorithms": "1.0.0"
+        },
+        "runtime": {
+          "Times.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Startup/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Algorithms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Times/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

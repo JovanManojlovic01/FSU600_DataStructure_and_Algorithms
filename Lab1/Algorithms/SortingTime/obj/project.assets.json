@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\SortingTime\\SortingTime.csproj",
-      "projectName": "SortingTime",
-      "projectPath": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\SortingTime\\SortingTime.csproj",
+      "projectUniqueName": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\SortingTime\\Times.csproj",
+      "projectName": "Times",
+      "projectPath": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\SortingTime\\Times.csproj",
       "packagesPath": "C:\\Users\\jovan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\SortingTime\\obj\\",
       "projectStyle": "PackageReference",

@@ -7,8 +7,36 @@
       "RelativeMoniker": "D:0:0:{6F5C37F1-A109-4F08-BC74-990E049BAAD5}|Algorithms\\Algorithms.csproj|solutionrelative:algorithms\\sortingalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4500550-19D9-41A7-BF49-FD9C0D5F73CD}|SortingTime\\SortingTime.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab1\\algorithms\\sortingtime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4500550-19D9-41A7-BF49-FD9C0D5F73CD}|SortingTime\\SortingTime.csproj|solutionrelative:sortingtime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{427B2AFB-1777-486C-A02D-76FA87CC2EE7}|Times\\Times.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab1\\algorithms\\times\\sortingtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427B2AFB-1777-486C-A02D-76FA87CC2EE7}|Times\\Times.csproj|solutionrelative:times\\sortingtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F5C37F1-A109-4F08-BC74-990E049BAAD5}|Algorithms\\Algorithms.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab1\\algorithms\\algorithms\\searchalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F5C37F1-A109-4F08-BC74-990E049BAAD5}|Algorithms\\Algorithms.csproj|solutionrelative:algorithms\\searchalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427B2AFB-1777-486C-A02D-76FA87CC2EE7}|Times\\Times.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab1\\algorithms\\times\\searchtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427B2AFB-1777-486C-A02D-76FA87CC2EE7}|Times\\Times.csproj|solutionrelative:times\\searchtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F4B38D-81EE-4BFB-A916-96F982508145}|Startup\\Startup.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab1\\algorithms\\startup\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F4B38D-81EE-4BFB-A916-96F982508145}|Startup\\Startup.csproj|solutionrelative:startup\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427B2AFB-1777-486C-A02D-76FA87CC2EE7}|Times\\Times.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab1\\algorithms\\times\\times.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{427B2AFB-1777-486C-A02D-76FA87CC2EE7}|Times\\Times.csproj|solutionrelative:times\\times.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F4B38D-81EE-4BFB-A916-96F982508145}|Startup\\Startup.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab1\\algorithms\\startup\\startup.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{60F4B38D-81EE-4BFB-A916-96F982508145}|Startup\\Startup.csproj|solutionrelative:startup\\startup.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F4B38D-81EE-4BFB-A916-96F982508145}|Startup\\Startup.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab1\\algorithms\\startup\\startup.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{60F4B38D-81EE-4BFB-A916-96F982508145}|Startup\\Startup.csproj|solutionrelative:startup\\startup.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427B2AFB-1777-486C-A02D-76FA87CC2EE7}|Times\\Times.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab1\\algorithms\\times\\times.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{427B2AFB-1777-486C-A02D-76FA87CC2EE7}|Times\\Times.csproj|solutionrelative:times\\times.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +46,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Times",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Times\\Times.csproj",
+              "RelativeDocumentMoniker": "Times\\Times.csproj",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Times\\Times.csproj",
+              "RelativeToolTip": "Times\\Times.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-20T12:08:22.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Times",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Times\\Times.csproj",
+              "RelativeDocumentMoniker": "Times\\Times.csproj",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Times\\Times.csproj",
+              "RelativeToolTip": "Times\\Times.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-20T12:04:57.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\SortingTime\\Program.cs",
-              "RelativeDocumentMoniker": "SortingTime\\Program.cs",
-              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\SortingTime\\Program.cs*",
-              "RelativeToolTip": "SortingTime\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAyAAAAAAAAAA==",
+              "Title": "SortingTime.cs",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Times\\SortingTime.cs",
+              "RelativeDocumentMoniker": "Times\\SortingTime.cs",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Times\\SortingTime.cs",
+              "RelativeToolTip": "Times\\SortingTime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T08:54:02.712Z",
+              "WhenOpened": "2024-11-20T11:57:49.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SearchTime.cs",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Times\\SearchTime.cs",
+              "RelativeDocumentMoniker": "Times\\SearchTime.cs",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Times\\SearchTime.cs",
+              "RelativeToolTip": "Times\\SearchTime.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwB8AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:57:49.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.csproj",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Startup\\Startup.csproj",
+              "RelativeDocumentMoniker": "Startup\\Startup.csproj",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Startup\\Startup.csproj",
+              "RelativeToolTip": "Startup\\Startup.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-20T11:52:11.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Start.cs",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Startup\\Start.cs",
+              "RelativeDocumentMoniker": "Startup\\Start.cs",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Startup\\Start.cs",
+              "RelativeToolTip": "Startup\\Start.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:52:04.409Z",
               "EditorCaption": ""
             },
             {
@@ -39,11 +131,36 @@
               "Title": "SortingAlgorithms.cs",
               "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Algorithms\\SortingAlgorithms.cs",
               "RelativeDocumentMoniker": "Algorithms\\SortingAlgorithms.cs",
-              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Algorithms\\SortingAlgorithms.cs*",
-              "RelativeToolTip": "Algorithms\\SortingAlgorithms.cs*",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAAALsAAACAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Algorithms\\SortingAlgorithms.cs",
+              "RelativeToolTip": "Algorithms\\SortingAlgorithms.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T08:07:49.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchAlgorithms.cs",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Algorithms\\SearchAlgorithms.cs",
+              "RelativeDocumentMoniker": "Algorithms\\SearchAlgorithms.cs",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Algorithms\\SearchAlgorithms.cs",
+              "RelativeToolTip": "Algorithms\\SearchAlgorithms.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwFIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T10:50:30.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Startup",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Startup\\Startup.csproj",
+              "RelativeDocumentMoniker": "Startup\\Startup.csproj",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Startup\\Startup.csproj",
+              "RelativeToolTip": "Startup\\Startup.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-20T12:09:30.091Z",
               "EditorCaption": ""
             }
           ]
