@@ -1,0 +1,14 @@
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\FileRead\obj\Debug\net8.0\FileRead.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\FileRead\obj\Debug\net8.0\FileRead.AssemblyInfoInputs.cache
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\FileRead\obj\Debug\net8.0\FileRead.AssemblyInfo.cs
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\FileRead\obj\Debug\net8.0\FileRead.csproj.CoreCompileInputs.cache
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\FileRead\bin\Debug\net8.0\FileRead.exe
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\FileRead\bin\Debug\net8.0\FileRead.deps.json
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\FileRead\bin\Debug\net8.0\FileRead.runtimeconfig.json
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\FileRead\bin\Debug\net8.0\FileRead.dll
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\FileRead\bin\Debug\net8.0\FileRead.pdb
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\FileRead\obj\Debug\net8.0\FileRead.dll
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\FileRead\obj\Debug\net8.0\refint\FileRead.dll
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\FileRead\obj\Debug\net8.0\FileRead.pdb
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\FileRead\obj\Debug\net8.0\FileRead.genruntimeconfig.cache
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\FileRead\obj\Debug\net8.0\ref\FileRead.dll

@@ -140,52 +140,66 @@ namespace Algorithms
                 {
                     if (myArray[i] > myArray[j])
                     {
-                        int temp = myArray[i + 1];
-                        myArray[i + 1] = myArray[i];
-                        myArray[i] = temp;
+                        Swap(myArray, i, i + 1);
                     }
                 }
             }
         }
 
-        public static int quicksortPartition(int[] myArray, int left, int right)
+        public static int quicksortPartition(int[] myArray, int left, int right) // Original code was taken from w3resource.com, modified in order to fit in my case.
         {
             int pivot = myArray[left];
 
             while (true)
             {
-                while (myArray[left] < pivot && left <= right)
+                
+                while (left <= right && myArray[left] < pivot) // Move left pointer to find an element greater than or equal to pivot
                 {
                     left++;
                 }
-                while (myArray[right] > pivot && right >= left)
+
+                
+                while (right >= left && myArray[right] > pivot) // Move right pointer to find an element less than or equal to pivot
                 {
                     right--;
                 }
-                if(left < right)
-                {
-                    if (myArray[left] == myArray[right])
-                        return right;
-                    Swap(myArray, left, right);
-                }
-                else
+
+
+                if (left >= right) // If the pointers meet or cross eachother, we return the index of that partition
                 {
                     return right;
                 }
 
+                
+                Swap(myArray, left, right); // Using swap method to swap elements
+                left++;
+                right--;
+            }
+        }
+
+        public static void quicksortHelper(int[] myArray, int left, int right)
+        {
+            if (left < right)
+            {
+                int partitionIndex = quicksortPartition(myArray, left, right);
+
+                // Recursively sort elements on both sides
+                quicksortHelper(myArray, left, partitionIndex);
+                quicksortHelper(myArray, partitionIndex + 1, right);
             }
         }
 
         public static void QuickSort(int[] myArray)
         {
-            quicksortPartition(myArray, 0, myArray.Length - 1);
+            quicksortHelper(myArray, 0, myArray.Length - 1);
         }
 
-        public static void SortByLambda(int[] myArray)
+        public static int[] SortByLambda(int[] myArray)
         {
-            int[] myArray_Copy = myArray; // Creating a copy of the array for comparison
+            int[] sortedArray = (int[])myArray.Clone(); // Creating a clone of the array to avoid mutations
 
-            Array.Sort(myArray_Copy, (x, y) => x.CompareTo(y)); // Sorting the arrays in ascending order using lambda expression
+            Array.Sort(sortedArray, (x, y) => x.CompareTo(y)); // Sorting the arrays in ascending order using lambda expression
+            return sortedArray;
         }
 
         public static void DisplayRunningTime(int[] myArray, sortingDelegate sortingDelegate)

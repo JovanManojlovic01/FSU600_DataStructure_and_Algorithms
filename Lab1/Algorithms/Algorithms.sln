@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Startup", "Startup\Startup.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Times", "Times\Times.csproj", "{427B2AFB-1777-486C-A02D-76FA87CC2EE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileRead", "FileRead\FileRead.csproj", "{88ED4429-1653-4479-8B00-7A7D13787E60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{427B2AFB-1777-486C-A02D-76FA87CC2EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{427B2AFB-1777-486C-A02D-76FA87CC2EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{427B2AFB-1777-486C-A02D-76FA87CC2EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88ED4429-1653-4479-8B00-7A7D13787E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88ED4429-1653-4479-8B00-7A7D13787E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88ED4429-1653-4479-8B00-7A7D13787E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88ED4429-1653-4479-8B00-7A7D13787E60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

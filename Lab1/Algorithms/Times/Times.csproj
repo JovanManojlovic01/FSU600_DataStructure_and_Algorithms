@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Algorithms\Algorithms.csproj" />
+    <ProjectReference Include="..\FileRead\FileRead.csproj" />
   </ItemGroup>
 
 </Project>

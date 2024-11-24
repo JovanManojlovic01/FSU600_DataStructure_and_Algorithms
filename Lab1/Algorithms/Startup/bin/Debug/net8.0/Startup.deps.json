@@ -23,9 +23,18 @@
           }
         }
       },
+      "FileRead/1.0.0": {
+        "runtime": {
+          "FileRead.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Times/1.0.0": {
         "dependencies": {
-          "Algorithms": "1.0.0"
+          "Algorithms": "1.0.0",
+          "FileRead": "1.0.0"
         },
         "runtime": {
           "Times.dll": {
@@ -43,6 +52,11 @@
       "sha512": ""
     },
     "Algorithms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FileRead/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

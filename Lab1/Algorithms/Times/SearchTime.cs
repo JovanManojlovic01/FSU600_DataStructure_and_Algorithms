@@ -60,9 +60,11 @@ namespace Times
 
                 // Run tests for each case
                 const int repetitions = 3; // Number of times to repeat each test
-                double bestTime = RunTestMultipleTimes(myArray, bestCase, "Best Case", repetitions, searchDelegate);
-                double averageTime = RunTestMultipleTimes(myArray, averageCase, "Average Case", repetitions, searchDelegate);
                 double worstTime = RunTestMultipleTimes(myArray, worstCase, "Worst Case", repetitions, searchDelegate);
+                double averageTime = RunTestMultipleTimes(myArray, averageCase, "Average Case", repetitions, searchDelegate);
+                double bestTime = RunTestMultipleTimes(myArray, bestCase, "Best Case", repetitions, searchDelegate);
+                
+                
 
                 Console.WriteLine($"Best Case Time: {bestTime} ms");
                 Console.WriteLine($"Average Case Time: {averageTime} ms");

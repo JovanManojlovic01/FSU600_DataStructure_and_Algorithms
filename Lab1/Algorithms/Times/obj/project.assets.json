@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/Algorithms.dll": {}
         }
+      },
+      "FileRead/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FileRead.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileRead.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../Algorithms/Algorithms.csproj",
       "msbuildProject": "../Algorithms/Algorithms.csproj"
+    },
+    "FileRead/1.0.0": {
+      "type": "project",
+      "path": "../FileRead/FileRead.csproj",
+      "msbuildProject": "../FileRead/FileRead.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Algorithms >= 1.0.0"
+      "Algorithms >= 1.0.0",
+      "FileRead >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -61,6 +77,9 @@
           "projectReferences": {
             "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Algorithms\\Algorithms.csproj": {
               "projectPath": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Algorithms\\Algorithms.csproj"
+            },
+            "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\FileRead\\FileRead.csproj": {
+              "projectPath": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\FileRead\\FileRead.csproj"
             }
           }
         }

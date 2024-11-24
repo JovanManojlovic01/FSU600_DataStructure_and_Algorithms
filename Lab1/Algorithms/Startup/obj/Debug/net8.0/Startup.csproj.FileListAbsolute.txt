@@ -5,6 +5,9 @@ C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\obj\Debug\net8.0\
 C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\obj\Debug\net8.0\Startup.csproj.CoreCompileInputs.cache
 C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\Times.deps.json
 C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\Times.runtimeconfig.json
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\FileRead.deps.json
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\FileRead.runtimeconfig.json
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\FileRead.exe
 C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\Times.exe
 C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\Startup.exe
 C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\Startup.deps.json
@@ -12,9 +15,11 @@ C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\
 C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\Startup.dll
 C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\Startup.pdb
 C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\Algorithms.dll
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\FileRead.dll
 C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\Times.dll
 C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\Algorithms.pdb
 C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\Times.pdb
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\bin\Debug\net8.0\FileRead.pdb
 C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\obj\Debug\net8.0\Startup.csproj.Up2Date
 C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\obj\Debug\net8.0\Startup.dll
 C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Startup\obj\Debug\net8.0\refint\Startup.dll

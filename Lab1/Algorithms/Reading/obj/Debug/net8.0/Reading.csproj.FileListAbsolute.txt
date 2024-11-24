@@ -1,0 +1,4 @@
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Reading\obj\Debug\net8.0\Reading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Reading\obj\Debug\net8.0\Reading.AssemblyInfoInputs.cache
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Reading\obj\Debug\net8.0\Reading.AssemblyInfo.cs
+C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Reading\obj\Debug\net8.0\Reading.csproj.CoreCompileInputs.cache

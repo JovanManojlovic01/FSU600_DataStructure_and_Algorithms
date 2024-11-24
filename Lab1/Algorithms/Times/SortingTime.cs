@@ -36,7 +36,7 @@ namespace Times
             // Creating the object of the delegate
             
             int[] myArray = SortingAlgorithms.Prepare(n);
-            sortingDelegate sortingDelegate;
+            sortingDelegate  sortingDelegate;
 
             switch (algorithmName)
             {

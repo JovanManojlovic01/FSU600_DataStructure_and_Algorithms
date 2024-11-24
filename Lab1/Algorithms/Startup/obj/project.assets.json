@@ -12,11 +12,22 @@
           "bin/placeholder/Algorithms.dll": {}
         }
       },
+      "FileRead/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FileRead.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileRead.dll": {}
+        }
+      },
       "Times/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Algorithms": "1.0.0"
+          "Algorithms": "1.0.0",
+          "FileRead": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Times.dll": {}
@@ -32,6 +43,11 @@
       "type": "project",
       "path": "../Algorithms/Algorithms.csproj",
       "msbuildProject": "../Algorithms/Algorithms.csproj"
+    },
+    "FileRead/1.0.0": {
+      "type": "project",
+      "path": "../FileRead/FileRead.csproj",
+      "msbuildProject": "../FileRead/FileRead.csproj"
     },
     "Times/1.0.0": {
       "type": "project",
