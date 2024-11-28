@@ -42,5 +42,14 @@ namespace TravelAgency.Repositories
                 await context.SaveChangesAsync(true);
             }
         }
+
+        public async Task UpdateDestinationAsync(Destination destination)
+        {
+            using var context = _contextFactory.CreateDbContext();
+
+            context.Destinations.Update(destination);
+
+            await context.SaveChangesAsync();
+        }
     }
 }

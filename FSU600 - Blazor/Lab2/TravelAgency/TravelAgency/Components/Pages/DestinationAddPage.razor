@@ -1,7 +1,9 @@
 ﻿@page "/destination-add"
 @using TravelAgency.Repositories
 @inject DestinationRepository DestinationRepo
-@inject NavigationManager Navigation
+@inject NavigationManager GoTo
+
+@rendermode InteractiveServer
 
 <h3>Add Destination</h3>
 
@@ -33,12 +35,12 @@
     {
         await DestinationRepo.AddDestinationAsync(NewDestination);
 
-        Navigation.NavigateTo("/destinations");
+        GoTo.NavigateTo("/destinations");
     }
 
     private void Cancel()
     {
-        Navigation.NavigateTo("/destinations");
+        GoTo.NavigateTo("/destinations");
     }
 
 }

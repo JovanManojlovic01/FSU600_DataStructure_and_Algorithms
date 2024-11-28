@@ -18,6 +18,7 @@ namespace TravelAgency
             builder.Services.AddDbContextFactory<AppDbContext>(options => options.UseSqlite("Data Source = TravelAgency.db"));
             builder.Services.AddScoped<DestinationRepository>();
             builder.Services.AddScoped<CustomerRepository>();
+            builder.Services.AddScoped<BookingRepository>();
 
             var app = builder.Build();
 

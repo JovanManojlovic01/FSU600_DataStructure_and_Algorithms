@@ -1,11 +1,11 @@
 ﻿@page "/destinations"
 @using TravelAgency.Repositories
 @inject DestinationRepository DestinationRepo
-@inject NavigationManager Navigation
+@inject NavigationManager GoTo
+@rendermode InteractiveServer
 
 <h3>Destinations</h3>
 
-<!-- Add button -->
 <button class="btn btn-success" @onclick="NavigateToAdd">Add</button>
 
 <table class="table">
@@ -37,26 +37,23 @@
 {
     private List<TravelAgency.Models.Destination> Destinations = new();
 
-    // Load destinations on initialization
     protected override async Task OnInitializedAsync()
     {
         Destinations = await DestinationRepo.GetDestinationsAsync();
     }
 
-    // Navigate to Add page
     private void NavigateToAdd()
     {
-        Navigation.NavigateTo("/destination-add");
+        GoTo.NavigateTo("/destination-add");
     }
 
     private void NavigateToUpdate(int id)
     {
-        Navigation.NavigateTo($"/destination-update/{id}");
+        GoTo.NavigateTo($"/destination-update/{id}");
     }
 
-    // Navigate to Delete page
     private void NavigateToDelete(int id)
     {
-        Navigation.NavigateTo($"/destination-delete/{id}");
+        GoTo.NavigateTo($"/destination-delete/{id}");
     }
 }
