@@ -17,7 +17,7 @@ namespace FileRead
                 Console.WriteLine("------------------------------ File Reading ----------------------------------------------");
                 Console.WriteLine("-----------------------------------------------------------------------------------");
                 Console.WriteLine("Please enter the name of the action you want to do. Here is the list of available actions:");
-                Console.WriteLine("1. Filter");
+                Console.WriteLine("1. Filter the names based on characters you want");
                 Console.WriteLine("2. Map (Employee Names)");
                 Console.WriteLine("3. Map (Departments)");
                 Console.WriteLine("4. Reduce");
@@ -31,15 +31,17 @@ namespace FileRead
                     Environment.Exit(0);
                 }
 
-                string filePath = @"C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\bin\Debug\net8.0\Employees.txt";
+                string filePath = @"C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Employees.txt";
 
 
                 switch (filereadName)
                 {
                     case "1":
-                        Console.WriteLine("You have chosen the filter function");
-                        var filteredNames = EmployeeProcessor.filterEmployees(filePath, "an");
-                        Console.WriteLine("\nList of filtered names that contain 'an' in their name/last name:");
+                        Console.WriteLine("You have chosen the filter function.");
+                        Console.Write("Enter the characters you want to filter names by: ");
+                        string filterChars = Console.ReadLine(); 
+                        var filteredNames = EmployeeProcessor.filterEmployees(filePath, filterChars);
+                        Console.WriteLine($"\nList of filtered names that contain '{filterChars}' in their name/last name:");
                         filteredNames.ForEach(Console.WriteLine);
                         break;
 

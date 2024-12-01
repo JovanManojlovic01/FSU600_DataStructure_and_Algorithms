@@ -11,9 +11,6 @@ namespace Algorithms
     public class SearchAlgorithms
     {
         public delegate int searchDelegate(int[] myArray, int key);
-
-        // Generate an array with random numbers
-        
         public static void Randomize(int[] randomNumbers)
         {
             Random random = new Random();
@@ -72,14 +69,13 @@ namespace Algorithms
             return Array.FindIndex(myArray, x => x == key);
         }
 
-        public static double DisplayRunningTime(int[] myArray, int key, searchDelegate searchDelegate)
+        public static async Task<double> DisplayRunningTimeAsync(int[] myArray, int key, searchDelegate searchDelegate)
         {
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
-            int result = searchDelegate(myArray, key);
+            int result = await Task.Run(() => searchDelegate(myArray, key));
             stopWatch.Stop();
             TimeSpan timeSpan = stopWatch.Elapsed;
-
             Console.WriteLine($"{timeSpan}");
             return timeSpan.TotalMilliseconds; // Return time in milliseconds
         }

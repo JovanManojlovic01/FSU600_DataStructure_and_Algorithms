@@ -68,11 +68,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Startup\\Startup.csproj",
+      "projectUniqueName": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\Lab1\\Algorithms\\Startup\\Startup.csproj",
       "projectName": "Startup",
-      "projectPath": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Startup\\Startup.csproj",
+      "projectPath": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\Lab1\\Algorithms\\Startup\\Startup.csproj",
       "packagesPath": "C:\\Users\\jovan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Startup\\obj\\",
+      "outputPath": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\Lab1\\Algorithms\\Startup\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -94,11 +94,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Algorithms\\Algorithms.csproj": {
-              "projectPath": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Algorithms\\Algorithms.csproj"
+            "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\Lab1\\Algorithms\\Algorithms\\Algorithms.csproj": {
+              "projectPath": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\Lab1\\Algorithms\\Algorithms\\Algorithms.csproj"
             },
-            "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Times\\Times.csproj": {
-              "projectPath": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\Times\\Times.csproj"
+            "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\Lab1\\Algorithms\\Times\\Times.csproj": {
+              "projectPath": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\Lab1\\Algorithms\\Times\\Times.csproj"
             }
           }
         }
@@ -111,8 +111,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -133,7 +134,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

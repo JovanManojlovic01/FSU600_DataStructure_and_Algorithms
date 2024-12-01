@@ -138,7 +138,7 @@ namespace Algorithms
             {
                 for (int i =0; i <= myArray.Length - 2; i++)
                 {
-                    if (myArray[i] > myArray[j])
+                    if (myArray[i] > myArray[j + 1])
                     {
                         Swap(myArray, i, i + 1);
                     }
@@ -202,14 +202,17 @@ namespace Algorithms
             return sortedArray;
         }
 
-        public static void DisplayRunningTime(int[] myArray, sortingDelegate sortingDelegate)
+        public static async Task<double> DisplayRunningTime(int[] myArray, sortingDelegate sortingDelegate)
         {
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
-            sortingDelegate(myArray);
+
+            await Task.Run(() => sortingDelegate(myArray));
+
             stopWatch.Stop();
             TimeSpan timeSpan = stopWatch.Elapsed;
             Console.WriteLine(timeSpan);
+            return timeSpan.TotalMilliseconds;
         }
     }
 }

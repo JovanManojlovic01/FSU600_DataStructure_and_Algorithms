@@ -57,28 +57,28 @@ namespace Times
                         Console.WriteLine("Invalid selection. Please try again.");
                         continue;
                 }
-
-                // Run tests for each case
-                const int repetitions = 3; // Number of times to repeat each test
-                double worstTime = RunTestMultipleTimes(myArray, worstCase, "Worst Case", repetitions, searchDelegate);
-                double averageTime = RunTestMultipleTimes(myArray, averageCase, "Average Case", repetitions, searchDelegate);
-                double bestTime = RunTestMultipleTimes(myArray, bestCase, "Best Case", repetitions, searchDelegate);
-                
-                
-
-                Console.WriteLine($"Best Case Time: {bestTime} ms");
-                Console.WriteLine($"Average Case Time: {averageTime} ms");
-                Console.WriteLine($"Worst Case Time: {worstTime} ms");
             }
         }
 
-        public static double RunTestMultipleTimes(int[] myArray, int key, string caseType, int repetitions, searchDelegate searchDelegate)
+        public static async Task RunAllTestsAsync(int[] myArray, int worstCase, int averageCase, int bestCase, searchDelegate searchDelegate)
+        {
+            const int repetitions = 3; // Number of times to repeat each test
+            double worstTime = await RunTestMultipleTimes(myArray, worstCase, "Worst Case", repetitions, searchDelegate);
+            double averageTime = await RunTestMultipleTimes(myArray, averageCase, "Average Case", repetitions, searchDelegate);
+            double bestTime = await RunTestMultipleTimes(myArray, bestCase, "Best Case", repetitions, searchDelegate);
+
+            Console.WriteLine($"Worst Case: {worstTime} ms");
+            Console.WriteLine($"Average Case: {averageTime} ms");
+            Console.WriteLine($"Best Case: {bestTime} ms");
+        }
+
+        public static async Task<double> RunTestMultipleTimes(int[] myArray, int key, string caseType, int repetitions, searchDelegate searchDelegate)
         {
             double totalTime = 0;
 
             for (int i = 0; i < repetitions; i++)
             {
-                totalTime += SearchAlgorithms.DisplayRunningTime(myArray, key, searchDelegate);
+                totalTime += await SearchAlgorithms.DisplayRunningTimeAsync(myArray, key, searchDelegate);
             }
 
             double averageTime = totalTime / repetitions;

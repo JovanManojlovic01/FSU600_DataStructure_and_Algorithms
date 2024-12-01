@@ -6,21 +6,9 @@ namespace FileRead
     {
         public class Employee
         {
-            public string employee_Name
-            {
-                get;
-                set;
-            }
-            public string employee_Department
-            {
-                get;
-                set;
-            }
-            public int employee_YearsOfExperience
-            {
-                get;
-                set;
-            }
+            public string employee_Name { get; set;}
+            public string employee_Department { get; set;}
+            public int employee_YearsOfExperience { get; set;}
         }
 
         public static Employee ParseEmployee(string line)
@@ -39,7 +27,7 @@ namespace FileRead
             return (List<string>)File.ReadAllLines(filePath)
                 .Where(line => !string.IsNullOrEmpty(line))
                 .Select(line => ParseEmployee(line))
-                .Where(i =>i.employee_Name.Contains(substring, StringComparison.OrdinalIgnoreCase))
+                .Where(i =>i.employee_Name.Contains(substring)) 
                 .Select(i => i.employee_Name)
                 .ToList();
         }

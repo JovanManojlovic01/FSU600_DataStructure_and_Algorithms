@@ -8,7 +8,7 @@ namespace Times
 {
     public class SortingTime
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             while (true)
             {
@@ -24,14 +24,14 @@ namespace Times
             Console.WriteLine("7. Exit");
             Console.WriteLine("-----------------------------------------------------------------------------------");
 
-            string algorithmName = Console.ReadLine();
+            string? algorithmName = Console.ReadLine();
                 if (algorithmName == "7" || algorithmName == "Exit")
                 {
                     Console.WriteLine("Exiting...");
                     Environment.Exit(0);
                 }
             Console.WriteLine("Please enter the desired size of the array:");
-            string size = Console.ReadLine();
+            string? size = Console.ReadLine();
             int n = int.Parse(size);
             // Creating the object of the delegate
             
@@ -43,37 +43,37 @@ namespace Times
                 case "1":
                     Console.WriteLine("You have chosen Insertion Sort");
                     sortingDelegate = new sortingDelegate(InsertionSort);
-                    SortingAlgorithms.DisplayRunningTime(myArray,sortingDelegate);
+                    await SortingAlgorithms.DisplayRunningTime(myArray,sortingDelegate);
                     break;
 
                 case "2":
                     Console.WriteLine("You have chosen Selection Sort");
                     sortingDelegate = new sortingDelegate(SelectionSort);
-                    SortingAlgorithms.DisplayRunningTime(myArray, sortingDelegate);
+                    await SortingAlgorithms.DisplayRunningTime(myArray, sortingDelegate);
                     break;
 
                 case "3":
                     Console.WriteLine("You have chosen Merge Sort");
                     sortingDelegate = new sortingDelegate(MergeSort);
-                    SortingAlgorithms.DisplayRunningTime(myArray, sortingDelegate);
+                    await SortingAlgorithms.DisplayRunningTime(myArray, sortingDelegate);
                     break;
 
                 case "4":
                     Console.WriteLine("You have chosen Bubble Sort");
                     sortingDelegate = new sortingDelegate(BubbleSort);
-                    SortingAlgorithms.DisplayRunningTime(myArray, sortingDelegate);
+                    await SortingAlgorithms.DisplayRunningTime(myArray, sortingDelegate);
                     break;
 
                 case "5":
                     Console.WriteLine("You have chosen Quick Sort");
                     sortingDelegate = new sortingDelegate(QuickSort);
-                    SortingAlgorithms.DisplayRunningTime(myArray, sortingDelegate);
+                    await SortingAlgorithms.DisplayRunningTime(myArray, sortingDelegate);
                     break;
 
                 case "6":
                     Console.WriteLine("You have chosen the Lambda Expression Sorting");
                     sortingDelegate = new sortingDelegate(QuickSort);
-                    SortingAlgorithms.DisplayRunningTime(myArray, sortingDelegate);
+                    await SortingAlgorithms.DisplayRunningTime(myArray, sortingDelegate);
                     break;
 
                 default:
