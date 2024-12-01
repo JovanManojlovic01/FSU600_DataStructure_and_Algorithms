@@ -31,7 +31,7 @@ namespace FileRead
                     Environment.Exit(0);
                 }
 
-                string filePath = @"C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Employees.txt";
+                string filePath = @"C:\Users\jovan\OneDrive\Desktop\FSU600\Lab1\Algorithms\Employees.txt"; // Input your own file path for the program to read
 
 
                 switch (filereadName)

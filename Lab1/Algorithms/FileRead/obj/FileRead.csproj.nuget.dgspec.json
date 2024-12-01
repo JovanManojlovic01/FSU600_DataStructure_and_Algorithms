@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\Lab1\\Algorithms\\FileRead\\FileRead.csproj": {}
+    "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\FileRead\\FileRead.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\Lab1\\Algorithms\\FileRead\\FileRead.csproj": {
+    "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\FileRead\\FileRead.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\Lab1\\Algorithms\\FileRead\\FileRead.csproj",
+        "projectUniqueName": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\FileRead\\FileRead.csproj",
         "projectName": "FileRead",
-        "projectPath": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\Lab1\\Algorithms\\FileRead\\FileRead.csproj",
+        "projectPath": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\FileRead\\FileRead.csproj",
         "packagesPath": "C:\\Users\\jovan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\Lab1\\Algorithms\\FileRead\\obj\\",
+        "outputPath": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab1\\Algorithms\\FileRead\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

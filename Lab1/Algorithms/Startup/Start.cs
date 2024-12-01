@@ -1,9 +1,12 @@
 ﻿namespace Startup
 {
+    using System;
+    using System.Threading.Tasks;
     using Times;
+
     public class Start
     {
-        static void Main(string[] args)
+        public static void Main(string[] args) 
         {
             Console.WriteLine("------- Algorithm Comparison and File Reading -----------");
             Console.WriteLine("-----------------------------------------------------");
@@ -16,15 +19,15 @@
             string choice = Console.ReadLine();
             if (choice == "1")
             {
-                SortingTime.Main(args);
+                SortingTime.Main(args); 
             }
             else if (choice == "2")
             {
-                SearchTime.SearchTimeMain(args);
+               SearchTime.SearchTimeMain(args); 
             }
             else if (choice == "3")
             {
-                FileRead.FileRead_Employee.Main(args);
+                FileRead.FileRead_Employee.Main(args); 
             }
             else
             {

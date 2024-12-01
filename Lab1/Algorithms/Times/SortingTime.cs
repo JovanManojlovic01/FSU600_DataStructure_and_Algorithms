@@ -73,7 +73,7 @@ namespace Times
                 case "6":
                     Console.WriteLine("You have chosen the Lambda Expression Sorting");
                     sortingDelegate = new sortingDelegate(QuickSort);
-                    await SortingAlgorithms.DisplayRunningTime(myArray, sortingDelegate);
+                    SortingAlgorithms.DisplayRunningTime(myArray, sortingDelegate);
                     break;
 
                 default:

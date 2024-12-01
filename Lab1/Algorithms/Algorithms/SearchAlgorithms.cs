@@ -69,7 +69,7 @@ namespace Algorithms
             return Array.FindIndex(myArray, x => x == key);
         }
 
-        public static async Task<double> DisplayRunningTimeAsync(int[] myArray, int key, searchDelegate searchDelegate)
+        public static async Task<double> DisplayRunningTime(int[] myArray, int key, searchDelegate searchDelegate)
         {
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
